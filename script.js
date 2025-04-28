@@ -28,3 +28,11 @@ cards.forEach((card) => {
         });
     }
 });
+
+//todo: Creating Countdown from 10
+
+for (let count = 15; count >= 0; count--) {
+    setTimeout(() => {
+        console.log(count);
+    }, (15 - count) * 1000);
+}
